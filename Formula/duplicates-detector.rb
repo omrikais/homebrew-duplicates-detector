@@ -3,8 +3,8 @@ class DuplicatesDetector < Formula
 
   desc "CLI tool for detecting duplicate/similar video, image, or audio files"
   homepage "https://github.com/omrikais/duplicates-detector"
-  url "https://github.com/omrikais/duplicates-detector/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "e22390b881fcbd68d06392c76b80626824da62646e8782fee774b8e77d878f94"
+  url "https://api.github.com/repos/omrikais/duplicates-detector/tarball/v2.0.0"
+  sha256 "ddd843cc2bc11581a10154ccf66d6757d99c65dd1612aa9179c15b0af0bf276c"
   license "MIT"
 
   depends_on "python@3.12"
