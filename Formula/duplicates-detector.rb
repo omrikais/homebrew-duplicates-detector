@@ -2,9 +2,9 @@ class DuplicatesDetector < Formula
   include Language::Python::Virtualenv
 
   desc "CLI tool for detecting duplicate/similar video, image, or audio files"
-  homepage "https://github.com/omrikais/duplicates-detector"
-  url "https://api.github.com/repos/omrikais/duplicates-detector/tarball/v2.0.0"
-  sha256 "ddd843cc2bc11581a10154ccf66d6757d99c65dd1612aa9179c15b0af0bf276c"
+  homepage "https://github.com/omrikais/duplicates-detector-oss"
+  url "https://github.com/omrikais/duplicates-detector-oss/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "cadfe143d259f122fc6a8b375420c6582092c5fd5d777219d1983226248575cc"
   license "MIT"
 
   depends_on "python@3.12"
