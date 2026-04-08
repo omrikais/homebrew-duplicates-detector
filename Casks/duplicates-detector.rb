@@ -1,6 +1,6 @@
 cask "duplicates-detector" do
-  version "3.0.1"
-  sha256 "8ea35a21c97c909cf12c6235ec6729cd3143cce8cd3a24b6b82e26b8c302c153"
+  version "3.0.2"
+  sha256 "707dd7a29b249a46b42ce9d904eb53aa912bf0268ebdafbdeff8de4ce8808a76"
 
   url "https://github.com/omrikais/duplicates-detector-oss/releases/download/v#{version}/DuplicatesDetector.dmg"
   name "Duplicates Detector"
