@@ -1,6 +1,6 @@
 cask "duplicates-detector" do
-  version "3.0.0"
-  sha256 "c4d446537528d95eea15abbb5b8c78eff094feebb7a7ad5daebc77cc544a80be"
+  version "3.0.1"
+  sha256 "cd913baaf0b43d382e3a042cc3647b9e13b5025a9cf226714c85bcb4acb2f257"
 
   url "https://github.com/omrikais/duplicates-detector-oss/releases/download/v#{version}/DuplicatesDetector.dmg"
   name "Duplicates Detector"
@@ -10,7 +10,7 @@ cask "duplicates-detector" do
   depends_on macos: ">= :tahoe"
 
   app "Duplicates Detector.app"
-  binary "#{appdir}/Duplicates Detector.app/Contents/Resources/cli/venv/bin/duplicates-detector"
+  binary "#{appdir}/Duplicates Detector.app/Contents/Resources/cli/duplicates-detector"
 
   zap trash: [
     "~/Library/Application Support/DuplicatesDetector",
