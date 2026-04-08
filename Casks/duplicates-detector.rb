@@ -10,7 +10,7 @@ cask "duplicates-detector" do
   depends_on macos: ">= :tahoe"
 
   app "Duplicates Detector.app"
-  binary "#{appdir}/Duplicates Detector.app/Contents/Resources/cli/bin/duplicates-detector"
+  binary "#{appdir}/Duplicates Detector.app/Contents/Resources/cli/venv/bin/duplicates-detector"
 
   zap trash: [
     "~/Library/Application Support/DuplicatesDetector",
